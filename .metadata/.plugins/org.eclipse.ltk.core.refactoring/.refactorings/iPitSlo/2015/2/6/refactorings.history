@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;iPitSlo&apos; to &apos;com.iPitSlo.ui&apos;&#x0A;- Original project: &apos;iPitSlo&apos;&#x0A;- Original element: &apos;iPitSlo/src/iPitSlo&apos;&#x0A;- Renamed element: &apos;iPitSlo/src/com.iPitSlo.ui&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;iPitSlo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;iPitSlo" name="com.iPitSlo.ui" qualified="false" references="true" stamp="1422766264588" textual="false" version="1.0"/>
+</session>
