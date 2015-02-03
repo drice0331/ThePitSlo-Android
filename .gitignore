@@ -18,3 +18,4 @@ gen/
 *build
 *.suo
 *.DS_Store
+.metadata
