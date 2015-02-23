@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ipitslo"
+    package="com.thepit.ipitslo"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -12,6 +12,29 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ui.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.BeltPageActivity" >
+        </activity>
+        <activity android:name=".ui.BlogActivity" >
+        </activity>
+        <activity android:name=".ui.ContactUsActivity" >
+        </activity>
+        <activity android:name=".ui.ScheduleActivity" >
+        </activity>
+        <activity android:name=".ui.FacebookActivity" >
+        </activity>
+        <activity android:name=".ui.TwitterActivity" >
+        </activity>
+        <activity android:name=".ui.YoutubeActivity" >
+        </activity>
     </application>
 
 </manifest>
