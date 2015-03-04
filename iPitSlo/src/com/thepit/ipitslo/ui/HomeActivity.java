@@ -8,6 +8,8 @@ import android.view.View;
 
 public class HomeActivity extends BaseActivity {
 	
+	private static final String PREFIX = "com.thepit.ipitslo.ui.";
+	
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
@@ -15,7 +17,7 @@ public class HomeActivity extends BaseActivity {
 	
 	public void onActivityClick(View view) {
 		try {
-			String name = "com.thepit.ipitslo.ui.";
+			String name = PREFIX;
 			name = name.concat((String)view.getTag());
 			Class<?> clazz = Class.forName(name);
 			Intent intent = new Intent(this, clazz);
